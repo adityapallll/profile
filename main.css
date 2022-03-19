@@ -1,0 +1,514 @@
+/* No CSS */
+/*# sourceMappingURL=main.css.map */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-logo {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    animation: fade 2s ease-in-out;
+}
+
+.img-altr {
+    margin-left: 2%;
+    margin-top: 2%;
+    animation: fade 2s ease-in-out;
+}
+
+.btn-3 {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(241, 241, 241);
+    padding-left: 30%;
+    padding-right: 30%;
+    animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 130%;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(127, 146, 255);
+    border-radius: 100%;
+    padding: 5%;
+}
+
+ul a:hover {
+    color: rgb(73, 231, 178);
+    border: 1px solid rgb(73, 231, 178);
+}
+
+.grid {
+    background-color: rgb(241, 241, 241);
+    height: 80vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 2%;
+    padding: 10%;
+    animation: fade 2s ease-in-out;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    box-shadow: 1px 10px 20px #888888;
+    position: relative;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
+
+.display-1 {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    top: 0;
+    border-radius: 5%;
+}
+
+.display-1:hover {
+    display: none;
+}
+
+.item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 5px 10px 20px #888888;
+    position: relative;
+    border-radius: 5%;
+    background-color: blueviolet;
+
+}
+
+.display-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.display-2:hover {
+    display: none;
+}
+
+.item-3 {
+    grid-row: span 2;
+    box-shadow: 5px 10px 20px #888888;
+    height: 69.4vh;
+    position: relative;
+    border-radius: 5%;
+    background-color: bisque;
+
+}
+
+.display-3 {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.display-3:hover {
+    display: none;
+}
+
+.item-4 {
+    background-color: rgb(245, 78, 12);
+    background-image: linear-gradient(to right, rgb(67, 15, 255)rgb(217, 19, 243)ow);
+    grid-column: span 2;
+    height: 34vh;
+    box-shadow: 5px 10px 20px#888888;
+    border-radius: 5%;
+    color: #FFFFFF;
+}
+
+.display-4 {
+    position: absolute;
+    border-radius: 5%;
+}
+
+.display-4:hover {
+    display: none;
+}
+
+.custom-shape-divider-top-1647440490 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647440490 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-top-1647440490 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.color {
+    height: 100vh;
+    background-color: tomato;
+}
+
+.bg-dev {
+    position: absolute;
+    font-size: 10em;
+    opacity: 0.2;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.box {
+    position: absolute;
+    border: 20px solid red;
+    width: 40%;
+    height: 64%;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-top: 10%;
+    transform: rotate(20deg);
+}
+
+.col-1 {
+    width: 40%;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+.text-bg {
+    margin-left: 30%;
+    margin-top: 20%;
+    font-size: 4em;
+}
+
+.col-1 p {
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 2em;
+
+}
+
+.illustration-1 {
+    position: relative;
+    color: #FFFFFF;
+}
+
+.ill-img {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 7px 20px#ffffff;
+    margin-left: 55%;
+    top: 50%;
+}
+
+.custom-shape-divider-top-1647513004 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647513004 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1647513004 .shape-fill {
+    fill: tomato;
+}
+
+.color-2 {
+    height: 100%;
+}
+
+.parallax-1 {
+    position: absolute;
+    z-index: -1;
+    padding-top: 8%;
+}
+
+.parallax-2 {
+    position: absolute;
+    left: 0;
+    top: 288%;
+}
+
+.text-content {
+    color: ghostwhite;
+    position: relative;
+    padding-top: 5%;
+    font-weight: 700;
+    padding-left: 35%;
+    font-size: 4em;
+    z-index: -1;
+}
+
+.skills-colors {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 700vh;
+    margin-top: 38%;
+    z-index: -1;
+}
+
+.skills-disp-1 {
+    text-align: center;
+    padding-top: 10%;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.skills-disp-1 h1 {
+    font-size: 4em;
+}
+
+.skills-disp-2 {
+    margin-top: 30%;
+    color: #ff1174;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
+
+.skills-disp-2 h1 {
+    font-size: 4em;
+}
+
+.skills-disp-3 {
+    margin-top: 30%;
+    color: #1c8fee;
+    text-align: center;
+    z-index: 3;
+}
+
+.skills-disp-3 h1 {
+    font-size: 4em;
+}
+
+.skills-disp-4 {
+    margin-top: 30%;
+    color: #15ff00;
+    text-align: center;
+    z-index: 3;
+}
+
+.skills-disp-4 h1 {
+    font-size: 4em;
+}
+
+.skills-disp-5 {
+    margin-top: 30%;
+    color: #ff04f7;
+    text-align: center;
+    z-index: 3;
+}
+
+.skills-disp-5 h1 {
+    font-size: 4em;
+    z-index: 3;
+    position: relative;
+}
+
+.skills-disp-6 {
+    margin-top: 30%;
+    color: #ffbc04;
+    text-align: center;
+    z-index: 3;
+}
+
+.skills-disp-6 h1 {
+    font-size: 4em;
+}
+
+/* -----------------------------CIRCLES------------------------------------------ */
+
+/* .circle {
+    position: relative;
+} */
+
+.circle-1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 80%;
+    margin-left: 70%;
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 30, 0);
+    border-radius: 100%;
+}
+
+.circle-2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 50%;
+    margin-left: 10%;
+    height: 60px;
+    width: 60px;
+    background: rgb(0, 255, 128);
+    border-radius: 100%;
+}
+
+.circle-3 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 60%;
+    margin-left: 20%;
+    height: 50px;
+    width: 50px;
+    background: rgb(7, 123, 255);
+    border-radius: 100%;
+}
+
+.circle-4 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 80%;
+    margin-left: 13%;
+    height: 90px;
+    width: 90px;
+    background: rgb(153, 0, 255);
+    border-radius: 100%;
+}
+
+.circle-5 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 70%;
+    margin-left: 40%;
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 145, 0);
+    border-radius: 100%;
+}
+
+.circle-6 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 60%;
+    margin-left: 20%;
+    height: 300px;
+    width: 300px;
+    background: rgb(255, 208, 0);
+    border-radius: 100%;
+}
+
+.circle-7 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 60%;
+    height: 400px;
+    width: 400px;
+    background: rgb(255, 1, 200);
+    border-radius: 100%;
+}
+
+.circle-8 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 80%;
+    margin-left: 10%;
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 123, 255);
+    border-radius: 100%;
+}
+
+.circle-9 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 60%;
+    margin-left: 60%;
+    height: 77px;
+    width: 77px;
+    background: rgb(255, 30, 0);
+    border-radius: 100%;
+}
+
+.circle-10 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 70%;
+    margin-left: 80%;
+    height: 120px;
+    width: 120px;
+    background: rgb(253, 249, 17);
+    border-radius: 100%;
+}
+
+.circle-11 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 50%;
+    margin-left: 77%;
+    height: 150px;
+    width: 150px;
+    background: rgb(183, 0, 255);
+    border-radius: 100%;
+}
+
+.circle-12 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 700px;
+    width: 700px;
+    background: rgb(43, 255, 0);
+    border-radius: 100%;
+}
+
+.circle-13 {
+
+
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    margin-top: 70%;
+    z-index: 3;
+    height: 25%;
+    width: 100%;
+    border-radius: 1000px 1000px 0 0;
+    background-color: rgb(236, 233, 12);
+}
+
+.boxy {
+    text-align: center;
+    margin-top: 70%;
+    border: 3px solid black;
+}
